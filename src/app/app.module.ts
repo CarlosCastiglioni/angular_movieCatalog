@@ -9,16 +9,16 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 
 import { MaterialModule } from './shared/material/material.module';
-import { TopoComponent } from './shared/components/topo/topo.component';
-import { RodapeComponent } from './shared/components/rodape/rodape.component';
+import { TopComponent } from './shared/components/top/top.component';
+import { FootComponent } from './shared/components/foot/foot.component';
 import { AlertaComponent } from './shared/components/alerta/alerta.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopoComponent,
-    RodapeComponent,
+    TopComponent,
+    FootComponent,
     AlertaComponent,
   ],
   imports: [

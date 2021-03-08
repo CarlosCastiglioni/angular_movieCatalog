@@ -2,11 +2,11 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
-  selector: 'dio-topo',
-  templateUrl: './topo.component.html',
-  styleUrls: ['./topo.component.scss']
+  selector: 'top',
+  templateUrl: './top.component.html',
+  styleUrls: ['./top.component.scss']
 })
-export class TopoComponent implements OnInit {
+export class TopComponent implements OnInit {
   @ViewChild('sidenav', {static: false}) sidenav: MatSidenav;
 
 
